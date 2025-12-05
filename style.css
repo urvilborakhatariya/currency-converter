@@ -89,6 +89,17 @@ form button:active{
     transform: translateY(2px);
 }
 
-@media (max-width : 1118px) {
-  
+@media (max-width : 380px) {
+    .container{
+        margin: 0 0.6rem 0 0.6rem;
+    }
+    .container h1{
+        font-size: 1.6rem;
+    }
+    .msg{
+        font-size: 1.4rem;
+    }
+    .dropdown i{
+        font-size: 1.2rem;
+    }
 }
